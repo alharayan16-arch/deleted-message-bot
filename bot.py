@@ -122,7 +122,10 @@ async def on_message_edit(before, after):
 
 
 import os
-TOKEN = os.getenv("DISCORD_TOKEN"))
+bot.run(os.environ["DISCORD_TOKEN"])
+
+
+
 
 
 
